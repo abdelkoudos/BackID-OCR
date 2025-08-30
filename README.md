@@ -44,7 +44,7 @@ This project implements an end-to-end pipeline for detecting and recognizing the
 > *Note: The test set had wrong annotated samples. After testing on a cleaned test set, accuracy increased to 95.5%.*  
 
 ## Error Analysis
-- Wrong segmentation: 4 instances  
+- Wrong segmentation
 - Wrong annotations  
 - Classification confusions (commonly 2 ↔ 3, 7 ↔ 8)  
 - Unclear or blurry samples  
