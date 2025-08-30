@@ -1,4 +1,4 @@
-# Egyptian National ID Back OCR (Arabic Digits)
+# Egyptian National ID Back OCR (Arabic Digits) with 95.5% line accuracy
 
 ## Project Overview
 This project implements an end-to-end pipeline for detecting and recognizing the 14-digit number printed on the back of Egyptian national ID cards. The pipeline focuses on robust preprocessing, segmentation, and classification to achieve high accuracy in character and line recognition.
@@ -40,7 +40,7 @@ This project implements an end-to-end pipeline for detecting and recognizing the
 
 ### End-to-end line recognition
 - **Training:** 99.18% char | 95.93% line  
-- **Test:** 98.98% char | 94.63% line  
+- **Test:** 98.98% char | 94.63% line  -> 95.5% line
 > *Note: The test set had wrong annotated samples. After testing on a cleaned test set, accuracy increased to 95.5%.*  
 
 ## Error Analysis
