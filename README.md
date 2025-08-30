@@ -4,7 +4,6 @@ Project Overview
 This project implements an end-to-end pipeline for detecting and recognizing the 14-digit number printed on the back of Egyptian national ID cards. The pipeline focuses on robust preprocessing, segmentation, and classification to achieve high accuracy in character and line recognition.
 
 Pipeline
-
 Preprocessing
 
 Remove duplicates and wrongly labeled images
@@ -48,7 +47,6 @@ Test: 3,167
 Test set: 486 lines
 
 Results
-
 Character-level performance
 
 Training accuracy: 99.90%
@@ -62,9 +60,9 @@ End-to-end line recognition
 Training: 99.18% char | 95.93% line
 
 Test: 98.98% char | 94.63% line
-(NOTE: the test set had wrong annotated samples after testing on a cleaned test set accuracy raised to 95.5%)
+(Note: The test set had wrong annotated samples. After testing on a cleaned test set, accuracy increased to 95.5%)
 
-Error Analysis:
+Error Analysis
 
 Wrong segmentation: 4 instances
 
