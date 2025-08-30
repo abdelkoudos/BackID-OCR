@@ -1,5 +1,5 @@
-Egyptian National ID Back OCR (Arabic Digits)
-Project Overview
+##Egyptian National ID Back OCR (Arabic Digits)
+#Project Overview
 
 This project implements an end-to-end pipeline for detecting and recognizing the 14-digit number printed on the back of Egyptian national ID cards. The pipeline focuses on robust preprocessing, segmentation, and classification to achieve high accuracy in character and line recognition.
 
