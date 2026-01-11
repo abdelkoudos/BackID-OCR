@@ -32,6 +32,7 @@ This project implements an end-to-end pipeline for detecting and recognizing the
 - Test set: 486 lines  
 
 ## Results
+- **Latency** ranged from 100-300ms on average without using parallelization duo to of the lack of resources.
 
 ### Character-level performance
 - **Training accuracy:** 99.90%  
@@ -53,6 +54,7 @@ This project implements an end-to-end pipeline for detecting and recognizing the
 - Iterative cleaning and retraining significantly improved dataset quality and performance.  
 - Errors mainly arise from segmentation mistakes, ambiguous digits, or annotation issues.  
 - Overall system achieves **>94% line-level accuracy** on test data.  
+
 
 ---
 
